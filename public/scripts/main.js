@@ -1,7 +1,8 @@
-"use strict";
+'use strict';
 
-var ohHey = "Hello World";
+var body = document.body;
+var html = document.documentElement;
 
-console.log(ohHey);
+var height = Math.max(body.scrollHeight, body.offsetHeight, html.clientHeight, html.scrollHeight, html.offsetHeight);
 
-console.log("hello");
+document.getElementById('sidebar').style.height = height + 'px';

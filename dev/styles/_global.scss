@@ -1,0 +1,16 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  @include fontSize(16);
+}
+
+.wrapper {
+  margin: 0 10px;
+    @media (min-width: 1040px) {
+    width: 80%;
+    max-width: 1170px;
+    margin: 0 auto;
+  }
+}

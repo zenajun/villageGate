@@ -1,7 +1,7 @@
-const ohHey = "Hello World";
+const body = document.body;
+const html = document.documentElement;
 
-console.log(ohHey);
+const height = Math.max(body.scrollHeight, body.offsetHeight, html.clientHeight, html.scrollHeight, html.offsetHeight);
 
+document.getElementById('sidebar').style.height = `${height}px`;
 
-
-console.log(`hello`);

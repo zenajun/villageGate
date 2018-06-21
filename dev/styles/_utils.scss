@@ -1,0 +1,28 @@
+$primaryColor: #dae9e4;
+$secondaryColor: #8bc8c8;
+$accentColor: #3c2e3d;
+$secondaryAccentColor: #ecc7c0;
+
+//  #fdae84
+@mixin colors($background, $color) {
+  background: $background;
+  color: $color;
+}
+
+@mixin fontSize($sizeValue) {
+  font-size: $sizeValue * 1px;
+  font-size: ($sizeValue/10) * 1rem;
+}
+
+@mixin position($top, $right, $bottom, $left) {
+  position: absolute;
+  top: $top;
+  right: $right;
+  bottom: $bottom;
+  left: $left;
+}
+
+@mixin fontFamily($family) {
+  font-family: $family;
+}
+

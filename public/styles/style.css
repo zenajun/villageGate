@@ -131,9 +131,57 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
+.visuallyhidden:not(:focus):not(:active) {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+          clip-path: inset(100%);
+  clip: rect(0 0 0);
+  overflow: hidden; }
+
+#sidebar {
+  background: #dae9e4;
+  height: 100%;
+  width: 20%;
+  padding: 0 0 0 25px; }
+
+.sidebar__nav__list {
+  padding: 0;
+  list-style-type: none;
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%); }
+  .sidebar__nav__list__item {
+    padding: 15px 0; }
+
+a {
+  color: #3c2e3d;
+  text-decoration: none; }
+
+h1 {
+  text-align: center;
+  color: #fdae84; }
+
+html {
+  font-size: 62.5%; }
+
 .container {
-  max-width: 900px;
-  margin: 0 auto; }
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
 
 body {
-  background: cornflowerblue; }
+  font-size: 1.6rem; }
+
+.main-content {
+  width: 80%;
+  padding: 25px; }
+
+section {
+  padding-top: 200px; }
