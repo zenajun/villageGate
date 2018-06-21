@@ -4,6 +4,8 @@ html {
 
 body {
   @include fontSize(16);
+  font-family: $primaryFont;
+  color: $primaryColor;
 }
 
 .wrapper {
@@ -14,3 +16,18 @@ body {
     margin: 0 auto;
   }
 }
+
+.container {
+  display: flex;
+}
+
+.main-content {
+  width: 80%;
+  background: $primaryBackground;
+}
+
+section {
+  padding: 0 25px;
+  padding-top: 100px;
+}
+

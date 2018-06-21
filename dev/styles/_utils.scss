@@ -1,9 +1,9 @@
-$primaryColor: #dae9e4;
-$secondaryColor: #8bc8c8;
-$accentColor: #3c2e3d;
-$secondaryAccentColor: #ecc7c0;
+$primaryColor: #3c2e3d;
+$primaryBackground: #dae9e4;
+$secondaryBackground: #8bcbc8;
+$primaryAccent: #fdae84;
+$secondaryAccent: #ecc7c0;
 
-//  #fdae84
 @mixin colors($background, $color) {
   background: $background;
   color: $color;

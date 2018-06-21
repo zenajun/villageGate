@@ -1,26 +1,24 @@
 #sidebar {
-  background: $secondaryColor;
-  height: 100%;
   width: 20%;
-  padding: 0 0 0 25px;
+  background: $secondaryBackground;
 }
 
 .sidebar {
   &__nav {
     &__list {
-      padding: 0;
       list-style-type: none;
       position: fixed;
       top: 50%;
       transform: translateY(-50%);
+      padding: 0;
+      margin: 0;
       &__item {
-        padding: 15px 0;
+        padding: 15px;
+        &__link {
+          text-decoration: none;
+          color: $primaryColor;
+        }
       }
     }
   }
-}
-
-a {
-  color: #3c2e3d;
-  text-decoration: none;
 }

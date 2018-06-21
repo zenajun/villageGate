@@ -1,4 +1,14 @@
 h1 {
+  font-family: $accentFont;
+  color: $primaryColor;
+  margin: 0;
+  padding: 25px;
   text-align: center;
-  color: #fdae84;
+}
+
+header {
+  background: linear-gradient( rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url(../../public/images/anusha-barwa-428445-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
 }
