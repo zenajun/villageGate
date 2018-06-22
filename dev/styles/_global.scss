@@ -26,8 +26,12 @@ body {
   background: $primaryBackground;
 }
 
+h2, h3 {
+  font-family: $headerFont;
+}
 section {
   padding: 0 25px;
-  padding-top: 100px;
+  // height: 100vh;
+
 }
 

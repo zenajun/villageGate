@@ -1,0 +1,18 @@
+
+.section{
+  &__header {
+  position: relative;
+    &::after {
+      content: '';
+      width: 50px;
+      height: 5px;
+      background: $secondaryAccent;
+      display: block;
+    }
+  }
+}
+
+
+.staff {
+  display: flex;
+}
